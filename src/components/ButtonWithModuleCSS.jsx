@@ -9,7 +9,7 @@ const ButtonWithModuleCSS = () => {
 
     const handleClick = () => {
         setIsClicked(!isClicked);
-        setAdditionalClass(isClicked ? '' : styles.ml_20);
+        setAdditionalClass(isClicked ? '' :`${styles.ml_20} ${styles.bg_green}`);
     };
 
     return (
