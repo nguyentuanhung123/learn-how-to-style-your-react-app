@@ -7,7 +7,7 @@ const ButtonWithModuleCSS = () => {
 
     return (
         <button 
-            className={styles.button} 
+            className={`${styles.button} ${styles.ml_20}`} 
             onClick={() => setIsClicked(!isClicked)}>
             Click me width Module CSS
         </button>
